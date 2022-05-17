@@ -387,3 +387,14 @@ p {
   color: #fff;
   font-size: 1em;
 }
+
+/*Cambio en color de background al texto cuando es seleccionado*/
+::-moz-selection {
+  background-color: black;
+  color: #fff;
+}
+
+::selection {
+  background-color: black;
+  color: #fff;
+}
